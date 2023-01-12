@@ -1,4 +1,5 @@
 Week 1 Lab Report: How to get Remote Access in VScode
+
 First, install VScode
   - Go to https://code.visualstudio.com/ to access the VScode website.
   - Follow the instructions to install VScode onto your computer based on your operating system. 
@@ -21,5 +22,6 @@ Third, try out some commands.
       - pwd, mkdir, cd, cd ~, ls, ls -lat, cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/, 
         cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   - Here is an example of testing some of the above commands: 
+  
   
   - To exit the remote server in your terminal, use the command Ctrl D
