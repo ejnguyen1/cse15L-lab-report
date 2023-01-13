@@ -6,7 +6,7 @@
   - Once VScode is installed, open it. Your screen should look like the following: 
   ![Image](https://user-images.githubusercontent.com/122569733/212421120-f166bb45-027c-43ab-8d2c-0c244ffbd59b.png)
   
- ## Connect to your remote server through your UCSD CSE15L account.
+ ## Connect to your remote server through your UCSD CSE15L account
   - Open a terminal in VScode by clicking "Terminal" -> "New Terminal".
   - In the terminal, type the following command: 
   ```
@@ -17,9 +17,9 @@
   - If you get a message that asks you to continue connecting, type yes and hit return.
   - Type in your password when prompted. The characters will not show up in the terminal. 
   - After all of this, your terminal should look like the following:
+  ![Image](https://user-images.githubusercontent.com/122569733/212422206-9d8b6464-5d58-4d3e-a6c2-14975afdf68a.png)
 
-
-## Try out some commands.
+## Try out some commands
   - Test out some commands on your computer and on the remote terminal (must ssh). 
   - Here are some commands to test out in the terminal:
   ```
