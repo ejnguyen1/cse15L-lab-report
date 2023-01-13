@@ -1,4 +1,4 @@
-# Week 1 Lab Report: How to get Remote Access in VScode
+# Week 1 Lab Report: Remote Access in VScode
 
 ## Install VScode
   - Go to [Link](https://code.visualstudio.com/) to access the VScode website.
