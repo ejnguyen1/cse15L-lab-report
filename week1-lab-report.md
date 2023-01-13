@@ -9,9 +9,9 @@ First, install VScode
  Second, connect to your remote server through your UCSD CSE15L account.
   - Open a terminal in VScode by clicking "Terminal" -> "New Terminal".
   - In the terminal, type the following command: 
-    ```
-    ssh cs15lwi23zz@ieng6.ucsd.edu
-    ```
+  ```
+  ssh cs15lwi23zz@ieng6.ucsd.edu
+  ```
   - Replace the "zz" with the account specific letters in your UCSD CSE15L account name (should be the last two 
       or three letters in the account name) and hit enter.
   - If you get a message that asks you to continue connecting, type yes and hit return.
@@ -21,7 +21,7 @@ First, install VScode
 
 Third, try out some commands.
   - Test out some commands on your computer and on the remote terminal (must ssh). 
-  - Here are some commands to test out:
+  - Here are some commands to test out in the terminal:
   ```
   pwd 
   mkdir
@@ -33,6 +33,5 @@ Third, try out some commands.
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   ```
   - Here is an example of testing some of the above commands: 
-  
   
   - To exit the remote server in your terminal, use the command Ctrl D
