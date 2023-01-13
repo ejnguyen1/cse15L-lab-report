@@ -22,8 +22,16 @@ First, install VScode
 Third, try out some commands.
   - Test out some commands on your computer and on the remote terminal (must ssh). 
   - Here are some commands to test out:
-      - pwd, mkdir, cd, cd ~, ls, ls -lat, cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/, 
-        cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  ```
+  pwd 
+  mkdir
+  cd
+  cd ~
+  ls
+  ls -lat
+  cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
+  cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  ```
   - Here is an example of testing some of the above commands: 
   
   
