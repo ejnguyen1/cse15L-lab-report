@@ -1,12 +1,12 @@
-## Week 1 Lab Report: How to get Remote Access in VScode
+# Week 1 Lab Report: How to get Remote Access in VScode
 
-*Install VScode*
-  - Go to https://code.visualstudio.com/ to access the VScode website.
+## Install VScode
+  - Go to [Link](https://code.visualstudio.com/) to access the VScode website.
   - Follow the instructions to install VScode onto your computer based on your operating system. 
   - Once VScode is installed, open it. Your screen should look like the following: 
+  ![Image](https://drive.google.com/file/d/1sCuLDzFgmz4g1qkTlvhvJtRwbOL5AZu1/view?usp=sharing)
   
-  
- *Connect to your remote server through your UCSD CSE15L account.*
+ ## Connect to your remote server through your UCSD CSE15L account.
   - Open a terminal in VScode by clicking "Terminal" -> "New Terminal".
   - In the terminal, type the following command: 
   ```
@@ -17,9 +17,9 @@
   - If you get a message that asks you to continue connecting, type yes and hit return.
   - Type in your password when prompted. The characters will not show up in the terminal. 
   - After all of this, your terminal should look like the following:
-  
+  ![Image]()
 
-*Try out some commands.*
+## Try out some commands.
   - Test out some commands on your computer and on the remote terminal (must ssh). 
   - Here are some commands to test out in the terminal:
   ```
@@ -33,5 +33,5 @@
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   ```
   - Here is an example of testing some of the above commands: 
-  
+  ![Image]()
   - To exit the remote server in your terminal, use the command Ctrl D
