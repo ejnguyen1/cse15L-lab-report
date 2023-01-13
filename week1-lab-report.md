@@ -33,5 +33,5 @@
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   ```
   - Here is an example of testing some of the above commands: 
-
+  ![Image](https://user-images.githubusercontent.com/122569733/212422456-a48bdc8c-b269-40eb-b637-4e2f1dbe71ba.png)
   - To exit the remote server in your terminal, use the command Ctrl D
