@@ -17,7 +17,7 @@
   - If you get a message that asks you to continue connecting, type yes and hit return.
   - Type in your password when prompted. The characters will not show up in the terminal. 
   - After all of this, your terminal should look like the following:
-  ![Image]()
+
 
 ## Try out some commands.
   - Test out some commands on your computer and on the remote terminal (must ssh). 
@@ -33,5 +33,5 @@
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
   ```
   - Here is an example of testing some of the above commands: 
-  ![Image]()
+
   - To exit the remote server in your terminal, use the command Ctrl D
