@@ -3,7 +3,7 @@
 ## Install VScode
   - Click [here](https://code.visualstudio.com/) to access the VScode website.
   - Follow the instructions to download and install VScode onto your computer based on your operating system. 
-  - Once VScode is installed, open it. The VScode window on your screen should look like the following: 
+  - Once VScode is installed, open it. The VScode window on your screen should look like this: 
   ![Image](https://user-images.githubusercontent.com/122569733/212421120-f166bb45-027c-43ab-8d2c-0c244ffbd59b.png)
   
  ## Connect to your remote server through your UCSD CSE15L account
