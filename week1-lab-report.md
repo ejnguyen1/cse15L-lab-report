@@ -6,7 +6,8 @@
   - Once VScode is installed, open it. The VScode window on your screen should look like this: 
   ![Image](https://user-images.githubusercontent.com/122569733/212421120-f166bb45-027c-43ab-8d2c-0c244ffbd59b.png)
   
- ## Connect to your remote server through your UCSD CSE15L account
+ Connect to your remote server through your UCSD CSE15L account
+ --------
   - Open a terminal in VScode by clicking "Terminal" -> "New Terminal" in the tool bar.
   - In the terminal, copy and paste the following command: 
   ```
