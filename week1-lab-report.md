@@ -24,15 +24,19 @@
 
 ## Try out some commands
   - Test out some commands on your computer and on the remote terminal (must ssh for this). 
+  - Some common commands are: pwd, which prints out the current working directory. mkdir, which creates a new directory.
+      cd, which switches the current working directory to the specified directory. ls, which lists the files and folders
+      of the given path. cat, which prints the contents of one or more files given by the path(s).
+  - Some helpful symbols are: .. which means the directory above/outside the current directory. ~ which means a directory
+      where a user's files are stored.  
   - Here are some commands to test out in the terminal:
   ```
-  pwd                    prints out the current working directory
-  mkdir <directory>      creates a new directory 
-  cd <path>              switches the current working directory to the specified directory         
-  ls <path>              lists the files and folders of the given path
-  ls -lat
-  cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
-  cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+  pwd
+  mkdir <directory> 
+  cd <path>           
+  ls <path>             
+  ls -lat 
+  cat <path1> <path2> etc
   ```
   - Here is an example of testing some of the above commands: 
   ![Image](https://user-images.githubusercontent.com/122569733/212422456-a48bdc8c-b269-40eb-b637-4e2f1dbe71ba.png)
