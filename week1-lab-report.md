@@ -29,8 +29,7 @@
   pwd                    prints out the current working directory
   mkdir <directory>      creates a new directory 
   cd <path>              switches the current working directory to the specified directory         
-  cd ~
-  ls
+  ls <path>              lists the files and folders of the given path
   ls -lat
   cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ 
   cat /home/linux/ieng6/cs15lwi23/public/hello.txt
