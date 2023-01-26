@@ -12,6 +12,9 @@
   ```
   ssh cs15lwi23zz@ieng6.ucsd.edu
   ```
+  - Your terminal should look like the following:
+  ![Image]
+  
   - Replace the "zz" with the account specific letters in your UCSD CSE15L account name (should be the last two 
       or three letters in the account name) and hit enter.
   - If you get a message that asks you to continue connecting, type yes and hit return.
