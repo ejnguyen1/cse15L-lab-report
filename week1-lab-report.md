@@ -26,9 +26,9 @@
   - Test out some commands on your computer and on the remote terminal (must ssh for this). 
   - Here are some commands to test out in the terminal:
   ```
-  pwd 
-  mkdir
-  cd
+  pwd                    prints out the current working directory
+  mkdir <directory>      creates a new directory 
+  cd <path>              switches the current working directory to the specified directory         
   cd ~
   ls
   ls -lat
