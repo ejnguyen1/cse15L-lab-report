@@ -33,7 +33,8 @@
   ```
   pwd
   mkdir <directory> 
-  cd <path>           
+  cd <path>
+  cd .. 
   ls <path>             
   ls -lat 
   cat <path1> <path2> etc
