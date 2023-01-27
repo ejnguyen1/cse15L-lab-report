@@ -29,7 +29,7 @@
       of the given path. cat, which prints the contents of one or more files given by the path(s).
   - Some helpful symbols are: .. which means the directory above/outside the current directory. ~ which means a directory
       where a user's files are stored.  
-  - Here are some commands to test out in the terminal:
+  - Here are some commands you can test out in the terminal:
   ```
   pwd
   mkdir <directory> 
