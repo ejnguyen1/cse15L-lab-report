@@ -12,7 +12,9 @@ To handle the requests made in the search bar, another method is called:
 ```
 /add-message?s=Hello
 ```
-  - This produces the following words on the screen.
+
+This produces the following words on the screen.
+ 
 ```
 Hello
 ```
