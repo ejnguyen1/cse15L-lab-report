@@ -8,12 +8,12 @@ To produce the server, several methods are called:
 - The main method is called, which takes in a number input to start the server.
 - The start() method from Server.java is called. This method takes the arguments port (the number input) and handler, which helps configure a website URL. Under this start() method, a new server is created.  
 To handle the requests made in the search bar, another method is called:
-- To produce the words displayed on the server window, the handleRequest() method is then called. The argument for this method is the URL in the search bar. This method looks at the text after "/add-message?s=" and prints it out on the screen. To print this text on the screen, the string after "/add-message?s=" is added to an output string in the handleRequest() method. This output string is what's returned on the screen. The following is added to the end of the URL. 
+- To produce the words displayed on the server window, the handleRequest() method is then called. The argument for this method is the URL in the search bar. This method looks at the text after "/add-message?s=" and prints it out on the screen. To print this text on the screen, the string after "/add-message?s=" is added to an output string in the handleRequest() method. This output string is what's returned on the screen. The following is added to the end of the URL: 
 ```
 /add-message?s=Hello
 ```
 
-This produces the following words on the screen.
+This produces the following words on the screen:
  
 ```
 Hello
@@ -25,11 +25,13 @@ Hello
 ```
 /add-message?s=Hi eve
 ```
-  - This prints out the following:
+
+This prints out the following:
+
 ```
 Hello
 Hi eve
 ```
-- Although the inputted argument is different for the handleRequest() method 
-
+Although the inputted argument is different for the handleRequest() method, the output string in the method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
+However, the rest of the URL does not change. Only the text after "/add-message?s=" is altered.
 ## Part 2: Bugs 
