@@ -18,10 +18,10 @@ This produces the following words on the screen:
 ```
 Hello
 ```
-- To produce new words on the screen, the URL in the search bar must be changed. This change produces the following: 
+To produce new words on the screen, the URL in the search bar must be changed. This change produces the following: 
 
 ![Image](https://user-images.githubusercontent.com/122569733/215233406-fdbb2a32-e033-4e72-85dd-0055ec5a2c0d.png)
-- Again, the handleRequest() method is called. The argument is the edited URL. Again, the string after "/add-message?s=" is added to the output string. By doing this, the previous output and the new output is shown on the screen. I changed the end of the URL to: 
+Again, the handleRequest() method is called. The argument is the edited URL. Again, the string after "/add-message?s=" is added to the output string. By doing this, the previous output and the new output is shown on the screen. I changed the end of the URL to: 
 ```
 /add-message?s=Hi eve
 ```
