@@ -33,5 +33,6 @@ Hello
 Hi eve
 ```
 Although the inputted argument is different for the handleRequest() method, the output string in the method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
+
 However, the rest of the URL does not change. Only the text after "/add-message?s=" is altered.
 ## Part 2: Bugs 
