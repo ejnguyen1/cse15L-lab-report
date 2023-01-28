@@ -12,7 +12,7 @@
 ```
 /add-message?s=Hello
 ```
-  - This produces the following words on the screen.
+        This produces the following words on the screen.
 ```
 Hello
 ```
@@ -23,7 +23,7 @@ Hello
 ```
 /add-message?s=Hi eve
 ```
-  the following is printed:
+        the following is printed:
 ```
 Hello
 Hi eve
