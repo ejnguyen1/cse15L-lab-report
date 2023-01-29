@@ -36,3 +36,21 @@ Although the inputted argument is different for the handleRequest() method, the 
 
 However, the rest of the URL does not change. Only the text after "/add-message?s=" is altered.
 ## Part 2: Bugs 
+The following method reverseInPlace() changes an input array to be in reverse order, however it contains a bug.
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+The following test case contains failure inducing input for the method.
+``` 
+@Test
+  public void testReverseInPlace2() {
+    int[] input2 = {1, 2, 3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3, 2, 1}, input2);
+  }
+  ```
+  
