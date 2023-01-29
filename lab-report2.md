@@ -10,7 +10,7 @@ To produce the server, several methods are called:
 
 To handle the requests made in the search bar when the URL is editted, another method is called:
 
-To produce the words displayed on the page, the handleRequest() method is called. The argument for this method is the URL in the search bar. This method breaks up the URL and looks at the text after "/add-message?s=." This text is printed out on the screen. For the photo above, the following text is at the end of the URL.
+The handleRequest() method is called. The argument for this method is the URL in the search bar. This method breaks up the URL and looks at the text after "/add-message?s=." This text is printed out on the screen. For the photo above, the following text is at the end of the URL.
 `/add-message?s=Hello`
 This produces the following words on the screen.
 `Hello`
