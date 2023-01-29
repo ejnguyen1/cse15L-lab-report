@@ -61,6 +61,6 @@ The following test case contains failure inducing input for the method.
 ```
 When both tests are run, the terminal displays the following. 
 
-![Image](https://user-images.githubusercontent.com/122569733/215306431-8ef64a60-24cd-4f48-b185-88dddd21abcf.png)
+![Image](https://user-images.githubusercontent.com/122569733/215306491-7e18b4ed-afb9-4661-8438-d5f97641fd14.png)
 
-
+This indicates that testReverseInPlace() passed, but testReverseInPlace2() failed. The symptom of the bug is described in the terminal under the failure message. The element 1 was expected at input2 array index 2, but the actual element was 3.
