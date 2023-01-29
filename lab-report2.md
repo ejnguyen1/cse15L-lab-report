@@ -1,7 +1,7 @@
 # Lab report 2: Servers and Bugs
 
 ## Part 1: StringServer
-I created a server called StringServer that prints out string messages. The first request of the server produces the following page:
+I created a server called StringServer that prints out string messages. The first request of the server produces the following page.
 
 ![Image](https://user-images.githubusercontent.com/122569733/215231995-69a9c05c-8059-4c3c-ac9d-a43959f86e85.png)
 To produce the server, several methods are called: 
@@ -19,12 +19,7 @@ To print this text on the screen, the string after `/add-message?s=` is added to
 To produce new words on the screen, the URL in the search bar must be changed. This change produces the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/215233406-fdbb2a32-e033-4e72-85dd-0055ec5a2c0d.png)
-Again, the handleRequest() method is called. The argument is the edited URL. Again, the string after "/add-message?s=" is added to the output string. By doing this, the previous output and the new output is shown on the screen. I changed the end of the URL to: 
-```
-/add-message?s=Hi eve
-```
-
-This prints out the following:
+Again, the handleRequest() method is called. The argument is the edited URL. Again, the string after `/add-message?s=` is added to the output string. In this case, the important part of the URL is the text `/add-message?s=Hi eve`. This produces the following text on the screen.
 
 ```
 Hello
@@ -32,7 +27,7 @@ Hi eve
 ```
 Although the inputted argument is different for the handleRequest() method, the output string in the method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
 
-However, the rest of the URL does not change. Only the text after "/add-message?s=" is altered.
+However, the rest of the URL does not change. Only the text after `/add-message?s=` is altered.
 ## Part 2: Bugs 
 The following method reverseInPlace() changes an input array to be in reverse order, however it contains a bug.
 ```
