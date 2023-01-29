@@ -12,7 +12,11 @@ To handle the requests made in the search bar when the URL is editted, the handl
 
 The argument for this method is the URL in the search bar. This method breaks up the URL argument and looks at the text after `/add-message?s=`. This text is then printed out on the screen.
 
-For the photo above, the text `/add-message?s=Hello` is at the end of the URL. This produces the word `Hello` on the screen.
+For the photo above, the text `/add-message?s=Hello` is at the end of the URL. This produces the following word on the screen. 
+
+```
+Hello
+``` 
 
 To print this text on the screen, the string after `/add-message?s=` is added to an output String variable in the handleRequest() method. This output string is what's returned on the page. 
 
