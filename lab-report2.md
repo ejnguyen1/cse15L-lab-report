@@ -1,5 +1,4 @@
 # Lab report 2: Servers and Bugs
-
 ## Part 1: StringServer
 I created a server called StringServer that prints out string messages. The first request of the server produces the following page.
 
@@ -62,6 +61,8 @@ When both tests are run, the terminal displays the following.
 
 This indicates that testReverseInPlace() passed, but testReverseInPlace2() failed. The symptom of the bug is described in the terminal under the failure message. The element 1 was expected at the array index 2, but the actual element was 3.
 
+This bug occurs when the second half of the inputted array arr is being reversed. The first half of the elements in arr have already been switched to their reverse, so when the second half is reversed, using elements from the first half of arr doesn't work because they have already been changed. 
+
 To fix the bug, I edited the reverseInPlace() method above to be the following.
 ```
 static void reverseInPlace(int[] arr) {
@@ -75,4 +76,9 @@ static void reverseInPlace(int[] arr) {
   }
 }
 ```
+In this code block, I use a for loop to reverse the inputted arr array into a copy array called copyArr. Once the reverse of arr is in copyArr, I deep copy the elements of copyArr into the original arr. Now, arr's elements are reversed.
+
+Reversing arr directly does not work unless all elements in the array are the same. 
+## Part 3: What I Learned
+
 
