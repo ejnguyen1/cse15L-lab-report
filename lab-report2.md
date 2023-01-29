@@ -80,5 +80,4 @@ In this code block, I use a for loop to reverse the inputted arr array into a co
 
 Reversing arr directly does not work unless all elements in the array are the same. 
 ## Part 3: What I Learned
-
-
+In week 2, I learned how to create a web server. In lab, this was done using the URLHandler class. This helped me learn about the different parts in a URL, like the domain, path, port, and local host. Before this lab, I didn't know what any of these things were. 
