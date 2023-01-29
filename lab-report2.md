@@ -13,18 +13,15 @@ To handle the requests made in the search bar when the server is live, the handl
 The argument for this method is the URL in the search bar. This method breaks up the URL argument and looks at the text after `/add-message?s=`. This text is then printed out on the screen.
 
 For the photo above, the text `/add-message?s=Hello` is at the end of the URL. This produces the following word on the screen. 
-
 ```
 Hello
 ``` 
-
 To print this text on the screen, the string after `/add-message?s=` is added to an output String variable in the handleRequest() method. This output string is what's returned on the page. 
 
 To produce new words on the screen, the URL in the search bar must be changed. This change produces the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/215233406-fdbb2a32-e033-4e72-85dd-0055ec5a2c0d.png)
 The handleRequest() method is called again when the URL is edited. The edited URL is the argument. The string after `/add-message?s=` is added to the output string. In this case, the important part of the URL is the text `/add-message?s=Hi eve`. This produces the following text on the screen.
-
 ```
 Hello
 Hi eve
