@@ -23,15 +23,15 @@ To print this text on the screen, the string after `/add-message?s=` is added to
 To produce new words on the screen, the URL in the search bar must be changed. This change produces the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/215233406-fdbb2a32-e033-4e72-85dd-0055ec5a2c0d.png)
-Again, the handleRequest() method is called. The argument is the edited URL. Again, the string after `/add-message?s=` is added to the output string. In this case, the important part of the URL is the text `/add-message?s=Hi eve`. This produces the following text on the screen.
+The handleRequest() method is called again when the URL is edited. The edited URL is the argument. The string after `/add-message?s=` is added to the output string. In this case, the important part of the URL is the text `/add-message?s=Hi eve`. This produces the following text on the screen.
 
 ```
 Hello
 Hi eve
 ```
-Although the inputted argument is different for the handleRequest() method, the output string in the method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
+Although the inputted URL argument is a little bit different, the output String variable in the handleRequest() method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
 
-However, the rest of the URL does not change. Only the text after `/add-message?s=` is altered.
+Although the path of the URL is edited, the domain stays the same. Only the text after `/add-message?s=` is altered.
 ## Part 2: Bugs 
 The following method reverseInPlace() changes an input array to be in reverse order, however it contains a bug.
 ```
