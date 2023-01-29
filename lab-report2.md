@@ -41,6 +41,15 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+The following test case contains input that doesn't induce failure, despite the buggy code.
+```
+@Test 
+  public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+  assertArrayEquals(new int[]{ 3 }, input1);
+  }
+```
 The following test case contains failure inducing input for the method.
 ``` 
 @Test
@@ -49,5 +58,9 @@ The following test case contains failure inducing input for the method.
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{3, 2, 1}, input2);
   }
-  ```
-  
+```
+When both tests are run, the terminal displays the following. 
+
+![Image](https://user-images.githubusercontent.com/122569733/215306431-8ef64a60-24cd-4f48-b185-88dddd21abcf.png)
+
+
