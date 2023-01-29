@@ -8,7 +8,7 @@ To produce the server, several methods are called:
 - The main method is called, which takes in a number input to start the server.
 - The start() method from Server.java is called. This method takes the arguments port (the number input) and handler, which helps configure a website URL. Under this start() method, a new server is created.  
 
-To handle the requests made in the search bar when the URL is editted, the handleRequest() method is called.
+To handle the requests made in the search bar when the server is live, the handleRequest() method is called.
 
 The argument for this method is the URL in the search bar. This method breaks up the URL argument and looks at the text after `/add-message?s=`. This text is then printed out on the screen.
 
