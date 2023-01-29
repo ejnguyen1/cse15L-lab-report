@@ -36,10 +36,10 @@ Although the path of the URL is edited, the domain stays the same. Only the text
 The following method reverseInPlace() changes an input array to be in reverse order, however it contains a bug.
 ```
 static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
   }
+}
 ```
 The following test case contains input that doesn't induce failure, despite the buggy code.
 ```
@@ -47,7 +47,7 @@ The following test case contains input that doesn't induce failure, despite the 
   public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
-  assertArrayEquals(new int[]{ 3 }, input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
   }
 ```
 The following test case contains failure inducing input for the method.
@@ -63,4 +63,19 @@ When both tests are run, the terminal displays the following.
 
 ![Image](https://user-images.githubusercontent.com/122569733/215306491-7e18b4ed-afb9-4661-8438-d5f97641fd14.png)
 
-This indicates that testReverseInPlace() passed, but testReverseInPlace2() failed. The symptom of the bug is described in the terminal under the failure message. The element 1 was expected at input2 array index 2, but the actual element was 3.
+This indicates that testReverseInPlace() passed, but testReverseInPlace2() failed. The symptom of the bug is described in the terminal under the failure message. The element 1 was expected at the array index 2, but the actual element was 3.
+
+To fix the bug, I edited the reverseInPlace() method above to be the following.
+```
+static void reverseInPlace(int[] arr) {
+  int[] copyArr = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = arr[arr.length - i - 1];
+    copyArr[i] = arr[arr.length - i - 1];
+  }
+  for (int i = 0; i < arr.length; i++) {
+    arr[i] = copyArr[i];
+  }
+}
+```
+
