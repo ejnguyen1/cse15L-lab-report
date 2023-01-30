@@ -1,4 +1,4 @@
-# Lab report 2: Servers and Bugs
+# Lab Report 2: Servers and Bugs
 ## Part 1: StringServer
 I created a server called StringServer that prints out string messages. The first request of the server produces the following page.
 
