@@ -25,7 +25,7 @@ The handleRequest() method is called again when the URL is edited. The edited UR
 Hello
 Hi eve
 ```
-Although the inputted URL argument is a little bit different, the output String variable in the handleRequest() method contains past inputted text. This is why text from past URL changes are still printed out on the screen.
+Although the inputted URL argument is a little bit different, the output String variable in the handleRequest() method contains past inputted text. The new text is added to the end of this output string. This is why text from past URL changes is still printed out on the screen.
 
 Although the path of the URL is edited, the domain stays the same. Only the text after `/add-message?s=` is altered.
 ## Part 2: Bugs 
