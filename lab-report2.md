@@ -61,7 +61,7 @@ When both tests are run, the terminal displays the following.
 
 This indicates that testReverseInPlace() passed, but testReverseInPlace2() failed. The symptom of the bug is described in the terminal under the failure message. The element 1 was expected at the array index 2, but the actual element was 3.
 
-This bug occurs when the second half of the inputted array arr is being reversed. The first half of the elements in arr have already been switched to their reverse, so when the second half is reversed, using elements from the first half of arr doesn't work because they have already been changed. 
+This bug occurs when the second half of the inputted array arr is being reversed. The first half of the elements in arr have already been switched to their reverse, so when the second half is reversed, drawing from elements in the first half of arr doesn't work because they have already been changed. 
 
 To fix the bug, I edited the reverseInPlace() method above to be the following.
 ```
