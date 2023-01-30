@@ -68,7 +68,6 @@ To fix the bug, I edited the reverseInPlace() method above to be the following.
 static void reverseInPlace(int[] arr) {
   int[] copyArr = new int[arr.length];
   for(int i = 0; i < arr.length; i += 1) {
-    arr[i] = arr[arr.length - i - 1];
     copyArr[i] = arr[arr.length - i - 1];
   }
   for (int i = 0; i < arr.length; i++) {
