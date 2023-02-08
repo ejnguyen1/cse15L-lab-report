@@ -1,6 +1,6 @@
 # Lab Report 2: Servers and Bugs
 ## Part 1: StringServer
-I created a server called StringServer that prints out string messages. Below is the code for this StringServer class, not including the java imports.
+I created a server called StringServer that prints out string messages. Below is the code for this StringServer file, not including the java imports.
 ```
 class Handler implements URLHandler {
   ArrayList<String> outputArr = new ArrayList<String> ();
