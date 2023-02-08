@@ -1,6 +1,35 @@
 # Lab Report 2: Servers and Bugs
 ## Part 1: StringServer
-I created a server called StringServer that prints out string messages. The first request of the server produces the following page.
+I created a server called StringServer that prints out string messages. Below is the code for this StringServer class, not including the java imports.
+```
+class Handler implements URLHandler {
+  ArrayList<String> outputArr = new ArrayList<String> ();
+  String outputStr = "";
+  public String handleRequest(URI url) {
+    if (url.getPath().equals("/add-message")) {
+      String[] parameters = url.getQuery().split("=");
+      outputStr += parameters[1];
+      outputStr += "\n";
+      return outputStr;
+    }
+    return "404 Not Found";
+  }
+}
+
+class StringServer {
+  public static void main(String[] args) throws IOException {
+    if(args.length == 0){
+      System.out.println("Incorrect input. Try a number 0-9999");
+      return;
+    }
+
+    int port = Integer.parseInt(args[0]);
+
+    Server.start(port, new Handler());
+  }
+}
+```
+The first request of the server produces the following page.
 
 ![Image](https://user-images.githubusercontent.com/122569733/215231995-69a9c05c-8059-4c3c-ac9d-a43959f86e85.png)
 To produce the server, several methods are called: 
