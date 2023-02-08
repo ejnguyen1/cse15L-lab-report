@@ -29,7 +29,7 @@ class StringServer {
   }
 }
 ```
-The first request of the server produces the following page.
+Once the server is created, I can have it handle requests. The first request of the server produces the following page.
 
 ![Image](https://user-images.githubusercontent.com/122569733/215231995-69a9c05c-8059-4c3c-ac9d-a43959f86e85.png)
 To produce the server, several methods are called: 
