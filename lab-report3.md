@@ -76,6 +76,35 @@ Source: the grep manual in the VSC terminal
 ## grep -v
 The terminal command `grep -v` searches a file or files for the given string and returns all lines that don't contain the string. 
 
+Here's an example of the command in the terminal:
+![Image](https://user-images.githubusercontent.com/122569733/218238057-560195b0-cce4-45f4-abbe-2f4b895a77c1.png)
+The input in the terminal is the following.
+```
+grep -v "the" written_2/travel_guides/berlit1/HandRLosAngeles.txt
+```
+The output is the following.
+```
+Recommended Hotels
+The following hotels are listed alphabetically in three
+area and Orange County. All hotels are of a high standard, with private
+bath, air-conditioning, television, and telephone; most have king- or
+queen-sized beds. Breakfast is not usually included at US hotels,
+except on executive floors and at some budget motels that offer morning
+coffee, orange juice, and doughnuts or muffins.
+To make direct reservations with a hotel, we have included
+addresses (all in California, abbreviated CA) and telephone/fax
+numbers. Check-out time is generally noon or 1pm, with check-in usually
+available from 2pm to 3pm. All hotels accept major credit cards.
+Rates vary greatly according to season and availability;
+many hotels offer special weekend packages, business rates, and
+following symbols to indicate room prices (two persons in a double
+room, per night):
+❁❁❁$200 and up
+❁❁$100–$200
+❁under $100
+```
+In this example, the file HandRLosAngeles.txt is searched, and the lines not containing "the" are returned. Lines containing capitalized "The" are included because the command isn't case sensitive.
+
 Source: https://www.ibm.com/docs/da/aix/7.1?topic=files-finding-text-strings-within-grep-command
 ## grep -n
 The terminal command `grep -n` performs the same functions as the normal grep function but puts the line number at the beginning of each line that is returned. 
