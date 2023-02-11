@@ -80,7 +80,7 @@ Here's an example of the command in the terminal:
 ![Image](https://user-images.githubusercontent.com/122569733/218238057-560195b0-cce4-45f4-abbe-2f4b895a77c1.png)
 The input in the terminal is the following.
 ```
-grep -v "the" written_2/travel_guides/berlit1/HandRLosAngeles.txt
+grep -v "the" written_2/travel_guides/berlitz1/HandRLosAngeles.txt
 ```
 The output is the following.
 ```
@@ -104,6 +104,19 @@ room, per night):
 ❁under $100
 ```
 In this example, the file HandRLosAngeles.txt is searched, and the lines not containing "the" are returned. Lines containing capitalized "The" are included because the command isn't case sensitive.
+
+Here's another example:
+![Image](https://user-images.githubusercontent.com/122569733/218238272-4eb2a75b-53b0-400b-a11d-5b724f55c814.png)
+The input in the terminal is the following.
+```
+grep -v "a" written_2/travel_guides/berlitz2/Cancun-History.txt
+```
+The output is the following.
+```
+A Brief History
+The Henequen Boom
+```
+These are the only two lines in the file Cancun-History.txt not containing the character "a."
 
 Source: https://www.ibm.com/docs/da/aix/7.1?topic=files-finding-text-strings-within-grep-command
 ## grep -n
