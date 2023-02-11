@@ -6,6 +6,14 @@ grep <string> <file>
 ## grep -l
 When used in the terminal, the command `grep -l` searches a file or files for the given string and returns the file path of the file containing the string.
 
+Here is an example of the command:
+![Image](https://user-images.githubusercontent.com/122569733/218234666-6d2d70b6-4c38-401f-be41-69c116e10451.png)
+The command returns the file paths of the files containing the string. This image indicates that only two text files contain the string "Paradox." This command is helpful for finding just the file, not the lines in the file. 
+
+Here is another example:
+![Image](https://user-images.githubusercontent.com/122569733/218234637-639f230d-9f44-46da-b82c-f9c1bc2d9245.png)
+In this example, more file paths are returned because more files contain the string "Bahamas." This command is especially helpful when a lot of files contain the string because returning all lines of text as well as the file paths would be a lot of data in the terminal.
+
 Source: https://ucsd-cse15l-w23.github.io/week/week4/
 ## grep -i
 The terminal command `grep -i` searches a file or files for the given string, but is not case sensitive. The usual grep command is case sensitive. This command returns the lines containing the string. 
