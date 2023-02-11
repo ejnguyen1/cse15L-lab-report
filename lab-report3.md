@@ -8,10 +8,32 @@ When used in the terminal, the command `grep -l` searches a file or files for th
 
 Here is an example of the command:
 ![Image](https://user-images.githubusercontent.com/122569733/218234666-6d2d70b6-4c38-401f-be41-69c116e10451.png)
+The input in the terminal is the following.
+```
+grep -l "Parados" written_2/*/*/*/*.txt
+```
+The output in the terminal is the following.
+```
+written_2/non-fiction/OUP/Fletcher/ch10.txt
+written_2/non-fiction/OUP/Fletcher/ch2.txt
+```
 The command returns the file paths of the files containing the string. This image indicates that only two text files contain the string "Paradox." This command is helpful for finding just the file, not the lines in the file. 
 
 Here is another example:
 ![Image](https://user-images.githubusercontent.com/122569733/218234637-639f230d-9f44-46da-b82c-f9c1bc2d9245.png)
+The input in the terminal is the following.
+```
+grep -l "Bahamas" written_2/*/*/*.txt
+```
+The output in the terminal is the following.
+```
+written_2/travel_guides/berlitz1/WhatToFWI.txt
+written_2/travel_guides/berlitz2/Bahamas-History.txt
+written_2/travel_guides/berlitz2/Bahamas-Intro.txt
+written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+```
 In this example, more file paths are returned because more files contain the string "Bahamas." This command is especially helpful when a lot of files contain the string because returning all lines of text as well as the file paths would be a lot of data in the terminal.
 
 Source: https://ucsd-cse15l-w23.github.io/week/week4/
