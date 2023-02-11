@@ -122,4 +122,33 @@ Source: https://www.ibm.com/docs/da/aix/7.1?topic=files-finding-text-strings-wit
 ## grep -n
 The terminal command `grep -n` performs the same functions as the normal grep function but puts the line number at the beginning of each line that is returned. 
 
+Here's an example of the command:
+![Image](https://user-images.githubusercontent.com/122569733/218239646-ae40345d-b712-4eb9-889f-f98194397f0e.png)
+The input in the terminal is the following.
+```
+grep -n "Myceneans" written_2/*/*/*.txt
+```
+The output is the following.
+```
+written_2/travel_guides/berlitz1/HistoryGreek.txt:36:        The Minoans and the Myceneans
+written_2/travel_guides/berlitz2/Athens-History.txt:9:The Achaeans’ chief rivals and mentors were the dazzling Minoans of Crete — until about 1450 b.c., when the Minoan empire was devastated, possibly by tidal waves caused by the eruption of the volcanic island of Thera (Santorini). From the seafaring Minoans, the Myceneans learned to make bronze by combining copper and tin and, with no written language of their own, they adpated the linear script used by Minoan scribes. For several centuries, the Mycenaeans dominated the eastern Mediterranean and Aegean. A long series of conflicts, however, including the legendary siege of Troy, weakened these mighty mainland warriors.
+```
+There are multiple files containing "Myceneans," so there are multiple file paths listed. After the file path, the line number is given, followed by the lines containing the string.
+
+Here's another example:
+![Image](https://user-images.githubusercontent.com/122569733/218239797-8a09adc8-ec90-4fa1-8118-bdb122198a43.png)
+The input in the terminal is the following.
+```
+grep -n "Pacific" written_2/travel_guides/berlitz1/HistoryHawaii.txt
+```
+The output is the following.
+```
+9:        arrived from the Marquesas in the South Pacific perhaps as early as
+35:        Northwest Passage linking the Atlantic and Pacific oceans. He, too, had
+191:        war on Japan. Hawaii, as America’s western outpost and major Pacific
+208:        Pacific frontier was still expanding. Hilton built a resort village
+218:        advanced Pacific Rim studies.
+```
+This time, only the specific file HistoryHawaii.txt is searched. The lines containing "Pacific" are returned, including their line number.
+
 Source: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.
