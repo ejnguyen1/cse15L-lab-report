@@ -56,7 +56,7 @@ written_2/non-fiction/OUP/Fletcher/ch2.txt
 written_2/non-fiction/OUP/Fletcher/ch5.txt
 written_2/non-fiction/OUP/Fletcher/ch9.txt
 ```
-This command is similar to the example two photos above, but there are more file paths shown. This is because the given string "Paradox" isn't case sensitive, so files containing "paradox" and "Paradox" are returned. 
+This command is similar to the example two photos above, but there are more file paths shown. This is because the given string "Paradox" isn't case sensitive, so files containing "paradox" and "Paradox" are returned. This command is helpful for finding all uses of a specific word in a file or directory. 
 
 Here's another example:
 ![Image](https://user-images.githubusercontent.com/122569733/218236330-39acb0f5-9d7a-43b1-8794-46c3d1e79cbf.png)
@@ -117,7 +117,7 @@ The output is the following.
 A Brief History
 The Henequen Boom
 ```
-These are the only two lines in the file Cancun-History.txt not containing the character "a."
+These are the only two lines in the file Cancun-History.txt not containing the character "a." This command can help single out lines not containing a specific word or character. 
 
 Source: https://www.ibm.com/docs/da/aix/7.1?topic=files-finding-text-strings-within-grep-command
 ## grep -n
@@ -134,7 +134,7 @@ The output is the following.
 written_2/travel_guides/berlitz1/HistoryGreek.txt:36:        The Minoans and the Myceneans
 written_2/travel_guides/berlitz2/Athens-History.txt:9:The Achaeans’ chief rivals and mentors were the dazzling Minoans of Crete — until about 1450 b.c., when the Minoan empire was devastated, possibly by tidal waves caused by the eruption of the volcanic island of Thera (Santorini). From the seafaring Minoans, the Myceneans learned to make bronze by combining copper and tin and, with no written language of their own, they adpated the linear script used by Minoan scribes. For several centuries, the Mycenaeans dominated the eastern Mediterranean and Aegean. A long series of conflicts, however, including the legendary siege of Troy, weakened these mighty mainland warriors.
 ```
-There are multiple files containing "Myceneans," so there are multiple file paths listed. After the file path, the line number is given, followed by the lines containing the string.
+There are multiple files containing "Myceneans," so there are multiple file paths listed. After the file path, the line number is given, followed by the lines containing the string. This is very helpful for searching for a word and its location in a file. 
 
 Here's another example:
 ![Image](https://user-images.githubusercontent.com/122569733/218239797-8a09adc8-ec90-4fa1-8118-bdb122198a43.png)
