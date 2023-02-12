@@ -1,5 +1,5 @@
 # Lab Report 3: The "grep" Command
-The grep terminal command searches a file or files for the given string and prints the matching lines. This is how the command is used in the terminal:
+The grep terminal command searches a file or files for the given string and prints the matching lines and file paths containing the string. This is how the command is used in the terminal:
 ```
 grep <string> <file>
 ```
