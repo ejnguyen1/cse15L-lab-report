@@ -3,7 +3,7 @@ The grep terminal command searches a file or files for the given string and prin
 ```
 grep <string> <file>
 ```
-There are many different variations of the grep command. 
+There are many different variations of the grep command. Here, I go over a few.
 ## grep -l
 When used in the terminal, the command `grep -l` searches a file or files for the given string and returns the file path of the file containing the string.
 
