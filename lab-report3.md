@@ -73,7 +73,7 @@ written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
 ```
 This output means that all of these files contain either "Nominally" or "nominally." 
 
-Source: the grep manual in the VSC terminal
+Source: grep manual in the VSC terminal
 ## grep -v
 The terminal command `grep -v` searches a file or files for the given string and returns all lines that don't contain the string. 
 
