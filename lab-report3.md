@@ -153,3 +153,5 @@ The output is the following.
 This time, only the specific file HistoryHawaii.txt is searched. The lines containing "Pacific" are returned, including their line number.
 
 Source: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.
+
+The grep command is very helpful for searching directories and files. Though these are only a few examples, there are many more ways to use the command. 
