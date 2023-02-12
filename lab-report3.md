@@ -104,7 +104,7 @@ room, per night):
 ❁❁$100–$200
 ❁under $100
 ```
-In this example, the file HandRLosAngeles.txt is searched, and the lines not containing "the" are returned. Lines containing capitalized "The" are included because the command isn't case sensitive.
+In this example, the file HandRLosAngeles.txt is searched, and the lines not containing "the" are returned. Lines containing capitalized "The" are included because the command is case sensitive.
 
 Here's another example:
 ![Image](https://user-images.githubusercontent.com/122569733/218238272-4eb2a75b-53b0-400b-a11d-5b724f55c814.png)
