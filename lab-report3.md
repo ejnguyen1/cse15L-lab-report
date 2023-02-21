@@ -3,12 +3,10 @@ The grep terminal command searches a file or files for the given string and prin
 ```
 grep <string> <file>
 ```
-There are many different variations of the grep command. Here, I go over a few.
+There are many different variations of the grep command. Here, I go over a few. I use ssh to look at drectories and files from ./written_2.
 ## grep -l
 When used in the terminal, the command `grep -l` searches a file or files for the given string and returns the file path of the file containing the string.
 
-Here is an example of the command:
-![Image](https://user-images.githubusercontent.com/122569733/218234666-6d2d70b6-4c38-401f-be41-69c116e10451.png)
 The input in the terminal is the following.
 ```
 grep -l "Paradox" written_2/*/*/*/*.txt
@@ -20,9 +18,7 @@ written_2/non-fiction/OUP/Fletcher/ch2.txt
 ```
 The command returns the file paths of the files containing "Paradox." This image indicates that only two text files, ch10.txt and ch2.txt, contain the string. This command is helpful for finding just the file, not the lines in the file. 
 
-Here is another example:
-![Image](https://user-images.githubusercontent.com/122569733/218234637-639f230d-9f44-46da-b82c-f9c1bc2d9245.png)
-The input in the terminal is the following.
+Here is another example. The input in the terminal is the following.
 ```
 grep -l "Bahamas" written_2/*/*/*.txt
 ```
@@ -41,9 +37,7 @@ Source: https://ucsd-cse15l-w23.github.io/week/week4/
 ## grep -i
 The terminal command `grep -i` searches a file or files for the given string, but is not case sensitive. The usual grep command is case sensitive. This command returns the lines containing the string and the file paths. For both examples, I also included `-l` so that only the file paths would be printed, not all the lines of text. 
 
-Here is an example of the command:
-![Image](https://user-images.githubusercontent.com/122569733/218236023-595a3dbb-5ace-4969-90b9-2650e58cc29c.png)
-The input in the terminal is the following.
+Here is an example of the command. The input in the terminal is the following.
 ```
 grep -i -l "Paradox" written_2/*/*/*/*.txt
 ```
@@ -58,9 +52,7 @@ written_2/non-fiction/OUP/Fletcher/ch9.txt
 ```
 This command is similar to the example two photos above, but there are more file paths shown. This is because the given string "Paradox" isn't case sensitive, so files containing "paradox" and "Paradox" are returned. This command is helpful for finding all uses of a specific word in a file or directory. 
 
-Here's another example:
-![Image](https://user-images.githubusercontent.com/122569733/218236330-39acb0f5-9d7a-43b1-8794-46c3d1e79cbf.png)
-The input in the terminal is the following.
+Here's another example. The input in the terminal is the following.
 ```
 grep -i -l "Nominally" written_2/*/*/*.txt
 ```
@@ -77,9 +69,7 @@ Source: grep manual in the VSC terminal
 ## grep -v
 The terminal command `grep -v` searches a file or files for the given string and returns all lines that don't contain the string. 
 
-Here's an example of the command in the terminal:
-![Image](https://user-images.githubusercontent.com/122569733/218238057-560195b0-cce4-45f4-abbe-2f4b895a77c1.png)
-The input in the terminal is the following.
+Here's an example of the command in the terminal. The input in the terminal is the following.
 ```
 grep -v "the" written_2/travel_guides/berlitz1/HandRLosAngeles.txt
 ```
@@ -106,9 +96,7 @@ room, per night):
 ```
 In this example, the file HandRLosAngeles.txt is searched, and the lines not containing "the" are returned. Lines containing capitalized "The" are included because the command is case sensitive.
 
-Here's another example:
-![Image](https://user-images.githubusercontent.com/122569733/218238272-4eb2a75b-53b0-400b-a11d-5b724f55c814.png)
-The input in the terminal is the following.
+Here's another example. The input in the terminal is the following.
 ```
 grep -v "a" written_2/travel_guides/berlitz2/Cancun-History.txt
 ```
@@ -123,8 +111,6 @@ Source: https://www.ibm.com/docs/da/aix/7.1?topic=files-finding-text-strings-wit
 ## grep -n
 The terminal command `grep -n` performs the same functions as the normal grep function but puts the line number at the beginning of each line that is returned. 
 
-Here's an example of the command:
-![Image](https://user-images.githubusercontent.com/122569733/218239646-ae40345d-b712-4eb9-889f-f98194397f0e.png)
 The input in the terminal is the following.
 ```
 grep -n "Myceneans" written_2/*/*/*.txt
@@ -136,9 +122,7 @@ written_2/travel_guides/berlitz2/Athens-History.txt:9:The Achaeans’ chief riva
 ```
 There are multiple files containing "Myceneans," so there are multiple file paths listed. After the file path, the line number is given, followed by the lines containing the string. This is very helpful for searching for a word and its location in a file. 
 
-Here's another example:
-![Image](https://user-images.githubusercontent.com/122569733/218239797-8a09adc8-ec90-4fa1-8118-bdb122198a43.png)
-The input in the terminal is the following.
+Here's another example. The input in the terminal is the following.
 ```
 grep -n "Pacific" written_2/travel_guides/berlitz1/HistoryHawaii.txt
 ```
