@@ -13,6 +13,8 @@ To fork the repository, I clicked on the "Fork" button once in the repository.
 ![Image](https://user-images.githubusercontent.com/122569733/221288921-74d32d9b-1f08-41c4-9e92-c6c0ec585f63.png)
 
 At the next page, click "Create Fork." 
+
+![Image](https://user-images.githubusercontent.com/122569733/221291464-5765501a-39f8-442e-a406-396cbf83aed7.png)
 ## Step 3: Start the Timer
 Start the timer on your phone to time the next steps. 
 ## Step 4: ssh
