@@ -8,10 +8,13 @@ I also deleted the forked repository from my Github account. I went into the for
 
 ![Image](https://user-images.githubusercontent.com/122569733/221288455-adb41395-8c74-45d7-b660-cd04760d7227.png)
 ## Step 2: Forking
+To fork the repository, I clicked on the "Fork" button once in the repository. 
 
+![Image](https://user-images.githubusercontent.com/122569733/221288921-74d32d9b-1f08-41c4-9e92-c6c0ec585f63.png)
 
+At the next page, click "Create Fork." 
 ## Step 3: Start the Timer
-
+Start the timer on your phone to time the next steps. 
 ## Step 4: ssh
 
 ## Step 5: Cloning
