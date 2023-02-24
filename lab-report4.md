@@ -32,7 +32,19 @@ Once I had the link copied, I went back to the VSCode terminal. I typed `git clo
 
 ![Image](https://user-images.githubusercontent.com/122569733/221292584-ed01542d-2fbe-425d-8f7d-4cefab2d7162.png)
 ## Step 6: Run the Tests
+To run the tests on the files, I first typed `ls lab7` into the terminal and hit `<enter>` to look at the files in the lab7 directory. The terminal should look like the following.
 
+![Image](https://user-images.githubusercontent.com/122569733/221293547-76c1d770-433d-4c9d-ac78-c448c77c2756.png)
+
+Now that I knew the files to use to run the tests, I moved into the lab7 directory so I could run the tests on the files in it. I typed `cd lab7` into the terminal and hit `<enter>`, as shown below. 
+
+![Image](https://user-images.githubusercontent.com/122569733/221294164-ef1383e8-09e5-47cf-af02-65635ab54d9e.png)
+
+To run the tests, I copied the JUnit commands at the bottom of the CSE15L Week 7 page and pasted them into the terminal. I first used `<command>+<c>` to copy the JUnit compile command. I used `<command>+<v>` to paste it into the terminal and hit `<enter>`. Once the code compiled successfully, I used `<command>+<c>` to copy the JUnit run command. I used `<command>+<v>` to paste it into the terminal and typed `ListExamplesTests` after, since that's the testing file. After hitting `<enter>`, my terminal looked like the following. 
+
+![Image](https://user-images.githubusercontent.com/122569733/221295159-67340b62-e9f0-4ea2-92ad-2361416cc6d6.png)
+
+The failure message indicates that there is a bug in the ListExamples.java file. 
 ## Step 7: Edit the Code
 
 ## Step 8: Run the Tests (Again)
