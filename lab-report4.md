@@ -1,6 +1,6 @@
 # Lab Report 4: "Done Quick" Lab
 ## Step 1: Setup
-To delete the forked repository from my ieng6 account, I used the terminal command `rm -rf lab7` to delete the directory and its contents. I did so in the VSCode terminal after ssh-ing in. The following screenshot shows the command in the terminal, as well as the contents of my ieng6 directory before and after deleting the forked lab7 repository. 
+To delete the forked repository from my ieng6 account, I typed `rm -rf lab7` in the terminal, then hit <enter>. I did so in the VSCode terminal after ssh-ing in. The following screenshot shows the command in the terminal, as well as the contents of my ieng6 directory before and after deleting the forked lab7 repository. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221288036-7719b81e-25ad-499e-a80a-4242a286e97b.png)
 
