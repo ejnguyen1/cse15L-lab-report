@@ -28,7 +28,7 @@ To clone the forked repository from my Github account, I first clicked on the "C
 
 ![Image](https://user-images.githubusercontent.com/122569733/221291872-0c246e29-eb5b-4342-b0c8-9d6f4d12f78f.png)
 
-Once I had the link copied, I went back to the VSCode terminal. I typed `git clone` then hit the buttons `<command>-<v>` to past the link after. Next, I hit `<enter>`. The terminal command and output should look like the following. 
+Once I had the link copied, I went back to the VSCode terminal. I typed `git clone` then hit the buttons `<command>+<v>` to paste the link after. Next, I hit `<enter>`. The terminal command and output should look like the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221292584-ed01542d-2fbe-425d-8f7d-4cefab2d7162.png)
 ## Step 6: Run the Tests
