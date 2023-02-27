@@ -46,13 +46,14 @@ To run the tests, I copied the JUnit commands at the bottom of the CSE15L Week 7
 
 The failure message indicates that there is a bug in the ListExamples.java file. 
 ## Step 7: Edit the Code
-The error in the file ListExamples.java is in line 43. The variable that should be incrementing is index2, not index1. To edit the code, I typed <nano ListExamples.java> and hit <enter>, as shown below. The resulting nano editor is also pictured.
+The error in the file ListExamples.java is in line 43. The variable that should be incrementing is index2, not index1. To edit the code, I typed <nano ListExamples.java> and hit <enter>, as shown below. 
 
-![Image]() terminal command
-![Image]() nano editor
-
-
+![Image](https://user-images.githubusercontent.com/122569733/221467625-6e37be16-a193-4fd3-91b6-f5e482958940.png)
   
+This is the resulting nano editor.
+  
+![Image](https://user-images.githubusercontent.com/122569733/221467686-782adf5c-78f7-433a-9b43-4c5d623a7257.png) 
+
 ## Step 8: Run the Tests (Again)
 
 ## Step 9: Commit and Push
