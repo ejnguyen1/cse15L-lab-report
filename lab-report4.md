@@ -46,7 +46,7 @@ To run the tests, I copied the JUnit commands at the bottom of the CSE15L Week 7
 
 The failure message indicates that there is a bug in the ListExamples.java file. 
 ## Step 7: Edit the Code
-The error in the file ListExamples.java is in line 43. The variable that should be incrementing is index2, not index1. To edit the code, I typed <nano ListExamples.java> and hit <enter>, as shown below. 
+The error in the file ListExamples.java is in line 43. The variable that should be incrementing is index2, not index1. To edit the code, I typed `<nano ListExamples.java>` and hit `<enter>`, as shown below. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221467625-6e37be16-a193-4fd3-91b6-f5e482958940.png)
   
@@ -54,10 +54,16 @@ This is the resulting nano editor.
   
 ![Image](https://user-images.githubusercontent.com/122569733/221467686-782adf5c-78f7-433a-9b43-4c5d623a7257.png) 
 
-My cursor started out at the bottom of the java code, so I pressed <up><up><up><up><up><up><up> and <right><right><right><right><right><right><right> to get to the part in line 43 I had to edit. I clicked <delete> to delete the 1 and typed <2> to change the variable `index1` to `index2`. The terminal before then after editing are pictured below. 
+Next I scrolled to the bottom. My cursor started out at the bottom of the java code, so I pressed `<up><up><up><up><up><up><up>` and `<right><right><right><right><right><right><right>` to get to the part in line 43 I had to edit. I clicked `<delete>` to delete the 1 and typed <2> to change the variable `index1` to `index2`. The terminal before then after editing are pictured below. 
   
 ![Image](https://user-images.githubusercontent.com/122569733/221470599-ece358fb-876c-445c-aa54-b67576cf3544.png)
 ![Image](https://user-images.githubusercontent.com/122569733/221470634-7c466fb7-40d7-4aa1-ac76-0f5138627b3a.png)
+  
+To save the changes, I typed `<control>+<o>`. The screen asked what I wanted to save the file as and showed the name `ListExamples.java', as shown below. 
+
+![Image](https://user-images.githubusercontent.com/122569733/221474097-52a6725a-65ad-4947-a53d-ddfef5139a5e.png)
+
+Since I wanted to keep this as the name, I hit `<enter>`. To exit, I typed <control>+<x>. 
   
 ## Step 8: Run the Tests (Again)
 
