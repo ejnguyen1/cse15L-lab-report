@@ -66,15 +66,15 @@ To save the changes, I typed `<control>+<o>`. The screen asked what I wanted to 
 Since I wanted to keep this as the name, I hit `<enter>`. To exit, I typed `<control>+<x>`. 
   
 ## Step 8: Run the Tests (Again)
-To run the tests, I accessed the JUnit compile and run commands using bash history. To access this history, I typed `<control>+<r>`. This pulled up a section where I can search the history, so I typed in `javac` to get the compile command. The command autofilled at the end of the line. Once I did this, the terminal looked like the photo below. 
+To run the tests, I accessed the JUnit compile and run commands using bash history. To access this history, I typed `<control>+<r>`. This pulled up a section where I could search for past commands I had already used, so I typed in `javac` to get the JUnit compile command. The command autofilled at the end of the line. The terminal looked like the photo below. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221475922-f1342b41-a848-43fa-8262-68a3b54ca5b0.png)
 
-I hit enter and the command runs, compiling both .java files in the lab7 directory. To run the tests, I accessed my bash search history again. I typed in `<control>+<r>` and in the search area typed `ListExamplesTests`. My terminal looked like the following. 
+I hit enter to compile both .java files in the lab7 directory. To run the JUnit tests, I accessed my bash search history again by typing `<control>+<r>`. In the search area I typed `ListExamplesTests`. My terminal looked like the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221476403-58764ca8-ad3d-4d7f-885d-f5eba478aea6.png)
 
-After I hit `<enter>`, the JUnit tests ran. My terminal indicated that all tests passed, as shown below. 
+After I hit `<enter>`, the JUnit tests ran. My terminal indicated that all tests passed, as shown below. This means that the code in ListExamples.java is no longer buggy. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221476794-2c24b0a8-8f5c-428a-9700-fe3bdc8f7fb8.png)
 
