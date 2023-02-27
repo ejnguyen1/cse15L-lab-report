@@ -59,11 +59,11 @@ Next I scrolled to the bottom. My cursor started out at the bottom of the java c
 ![Image](https://user-images.githubusercontent.com/122569733/221470599-ece358fb-876c-445c-aa54-b67576cf3544.png)
 ![Image](https://user-images.githubusercontent.com/122569733/221470634-7c466fb7-40d7-4aa1-ac76-0f5138627b3a.png)
   
-To save the changes, I typed `<control>+<o>`. The screen asked what I wanted to save the file as and showed the name `ListExamples.java', as shown below. 
+To save the changes, I typed `<control>+<o>`. The screen asked what I wanted to save the file as and showed the name `ListExamples.java1`, as shown below. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221474097-52a6725a-65ad-4947-a53d-ddfef5139a5e.png)
 
-Since I wanted to keep this as the name, I hit `<enter>`. To exit, I typed <control>+<x>. 
+Since I wanted to keep this as the name, I hit `<enter>`. To exit, I typed `<control>+<x>`. 
   
 ## Step 8: Run the Tests (Again)
 
