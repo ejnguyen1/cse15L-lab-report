@@ -77,6 +77,5 @@ I hit enter to compile both .java files in the lab7 directory. To run the JUnit 
 After I hit `<enter>`, the JUnit tests ran. My terminal indicated that all tests passed, as shown below. This means that the code in ListExamples.java is no longer buggy. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221476794-2c24b0a8-8f5c-428a-9700-fe3bdc8f7fb8.png)
-
 ## Step 9: Commit and Push
 
