@@ -54,7 +54,7 @@ This is the resulting nano editor.
   
 ![Image](https://user-images.githubusercontent.com/122569733/221467686-782adf5c-78f7-433a-9b43-4c5d623a7257.png) 
 
-Next I scrolled to the bottom. My cursor started out at the bottom of the java code, so I pressed `<up><up><up><up><up><up><up>` and `<right><right><right><right><right><right><right>` to get to the part in line 43 I had to edit. I clicked `<delete>` to delete the 1 and typed <2> to change the variable `index1` to `index2`. The terminal before then after editing are pictured below. 
+Next I scrolled to the bottom. My cursor started out at the bottom of the java code, so I pressed `<up><up><up><up><up><up><up>` and `<right><right><right><right><right><right><right>` to get to the part in line 43 I had to edit. I clicked `<delete>` to delete the `<1>` and typed `<2>` to change the variable `index1` to `index2`. The terminal before then after editing are pictured below. 
   
 ![Image](https://user-images.githubusercontent.com/122569733/221470599-ece358fb-876c-445c-aa54-b67576cf3544.png)
 ![Image](https://user-images.githubusercontent.com/122569733/221470634-7c466fb7-40d7-4aa1-ac76-0f5138627b3a.png)
