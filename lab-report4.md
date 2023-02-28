@@ -78,4 +78,14 @@ After I hit `<enter>`, the JUnit tests ran. My terminal indicated that all tests
 
 ![Image](https://user-images.githubusercontent.com/122569733/221476794-2c24b0a8-8f5c-428a-9700-fe3bdc8f7fb8.png)
 ## Step 9: Commit and Push
+To commit the changes made in ListExamples.java to the main Github repository, I first typed in `git add ListExamples.java` and hit `<enter>`. This command saves the modified version of the .java file so that it can be committed. Next, I typed `git commit -m "ListExamples.java edited"`. This command commits the file and prints out a message to indicate this. I hit `<enter>`. The commands and their output are shown below. 
 
+![Image](https://user-images.githubusercontent.com/122569733/221744489-2aed5044-e124-420f-93a9-8ebe993c8377.png)
+
+To push the file, I typed `git push`. I was then prompted for my Github username and password. Once entered, my terminal indicated that the push was successful. 
+
+![Image](https://user-images.githubusercontent.com/122569733/221744788-953479c6-03d1-4433-90ed-e189b558f896.png)
+
+Just to be sure this step was successful, I went to my Github account online to look at recent pushes. My Github indicated that the file commit and push were successful. 
+
+![Image](https://user-images.githubusercontent.com/122569733/221744928-d83fcdf5-6697-4330-b470-4615b273ab4e.png)
