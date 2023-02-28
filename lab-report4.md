@@ -70,7 +70,7 @@ To run the tests, I accessed the JUnit compile and run commands using bash histo
 
 ![Image](https://user-images.githubusercontent.com/122569733/221475922-f1342b41-a848-43fa-8262-68a3b54ca5b0.png)
 
-I hit enter to compile both .java files in the lab7 directory. To run the JUnit tests, I accessed my bash search history again by typing `<control>+<r>`. In the search area I typed `ListExamplesTests`. My terminal looked like the following. 
+I hit `<enter>` to compile both .java files in the lab7 directory. To run the JUnit tests, I accessed my bash search history again by typing `<control>+<r>`. In the search area I typed `ListExamplesTests`. My terminal looked like the following. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221476403-58764ca8-ad3d-4d7f-885d-f5eba478aea6.png)
 
