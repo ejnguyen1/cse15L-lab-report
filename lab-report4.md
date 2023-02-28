@@ -18,7 +18,7 @@ At the next page, click "Create Fork."
 ## Step 3: Start the Timer
 Start the timer on your phone to time the next steps. 
 ## Step 4: ssh
-Log into your ieng6 account using ssh. To do this, I typed <ssh cs15lwi23asa@ieng6.ucsd.edu> into my VSCode terminal and hit `<enter>`. 
+Log into your ieng6 account using ssh. To do this, I typed `ssh cs15lwi23asa@ieng6.ucsd.edu` into my terminal and hit `<enter>`. 
 
 ![Image](https://user-images.githubusercontent.com/122569733/221290614-cb4ddd5d-797b-4dc0-9814-850b364169e1.png)
 
