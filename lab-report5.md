@@ -37,7 +37,7 @@ The output is the following
 ./berlitz2/CostaBlanca-WhatToDo.txt
 ./berlitz2/CstaBlanca-WhereToGo.txt
 ```
-All of these files are returned because they contain "sta" somewhere in their file name. Since the working directory contains the directories `berlitz1` and `berlitz2`, the files returned are from both directories. 
+All of these files are returned because they contain "sta" somewhere in their file name. Since the working directory contains the directories `berlitz1` and `berlitz2`, the files returned are from both directories. This command is helpful for searching for directories for file names containing a specific string pattern. 
 
 Source: find manual in VSCode terminal. 
 ## find -type *type*
