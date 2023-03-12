@@ -23,7 +23,7 @@ Here is another example. The input in the terminal is the following. The working
 ```
 find -name "*sta*"
 ```
-The output is the following
+The output is the following.
 ```
 ./berlitz1/HandRIstanbul.txt
 ./berlitz1/HistoryIstanbul.txt
@@ -41,7 +41,35 @@ All of these files are returned because they contain "sta" somewhere in their fi
 
 Source: find manual in VSCode terminal. 
 ## find -type *type*
-The terminal command `find -type <type>` checks if the file is of the given type. The possible types are: `b` for block special, `c` for character special, `d` for directory, `f` for regular file, `l` for symbolic link, `p` for FIFO, and `s` for socket. 
+The terminal command `find -type <type>` searches the current working directory for files of the specified type. The possible types are: `b` for block special, `c` for character special, `d` for directory, `f` for regular file, `l` for symbolic link, `p` for FIFO, and `s` for socket. 
+
+Here is an example of the command. The input in the terminal is the following. The working directory is `docsearch/written_2/non-fiction/OUP/Rybczynski`.
+```
+find -type f
+```
+The output is the following.
+```
+./ch1.txt
+./ch2.txt
+./ch3.txt
+```
+These three files are returned because they're all of the specified type `f` (regular file). This means that all of these are regular files contained in the working directory. 
+
+Here's another example of the command when the working directory is . The input in the terminal is the following.
+```
+find -type d
+```
+The output is the following.
+```
+.
+./Abernathy
+./Berk
+./Castro
+./Fletcher
+./Kauffman
+./Rybczynski
+```
+Since the specified type was `d` (directory), all the directories in the current working directory are returned. This command is helpful when searching for a specific type within a repository. 
 
 Source: find manual in VSCode terminal. 
 ## find -newer
