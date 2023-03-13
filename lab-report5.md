@@ -55,7 +55,7 @@ The output is the following.
 ```
 These three files are returned because they're all of the specified type `f` (regular file). This means that all of these are regular files contained in the working directory. 
 
-Here's another example of the command when the working directory is . The input in the terminal is the following.
+Here's another example of the command when the working directory is `docsearch/written_2/non-fiction/OUP`. The input in the terminal is the following.
 ```
 find -type d
 ```
@@ -74,6 +74,36 @@ Since the specified type was `d` (directory), all the directories in the current
 Source: find manual in VSCode terminal. 
 ## find -newer
 The terminal command `find -newer <path>` gives all the files that are newer than the given file. 
+
+Here is an example of the command. The input in the terminal is the following. The current working directory is `docsearch/written_2/non-fiction/OUP/Castro`.
+```
+find -newer chN.txt
+```
+The output in the terminal is the following.
+```
+.
+./chO.txt
+./chP.txt
+./chQ.txt
+./chR.txt
+./chV.txt
+./chW.txt
+./chY.txt
+./chZ.txt
+```
+This means that all of these outputted files are newer than the file `chN.txt`. If you were looking at this repository on Github, all of the returned files would be shown underneath the file `chN.txt` in the repository. 
+
+Here's another example of the command. The working directory stays the same, but the specified file changes.
+```
+find -newer chW.txt
+```
+The output is the following.
+```
+.
+./chY.txt
+./chZ.txt
+```
+This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`. This indicates that only a few files would be lower in the Github repository than `chW.txt`. The newer files are lower in the repository when listed on Github. This command is helpful for searching for something you know you made after a specific file. 
 
 Source: https://www.javatpoint.com/linux-find
 ## find 
