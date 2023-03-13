@@ -1,5 +1,5 @@
 # Lab Report 5: The "find" Command
-The terminal command find traverses the given path and gives all matching files in the specified directory and subdirectories. This is how the command is used.
+The terminal command `find` traverses the given path and gives all matching files in the specified directory and subdirectories. This is how the command is used.
 ```
 find <path>
 ```
