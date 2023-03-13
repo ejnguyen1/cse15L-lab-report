@@ -106,5 +106,35 @@ The output is the following.
 This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`. This indicates that only a few files would be lower in the Github repository than `chW.txt`. The newer files are lower in the repository when listed on Github. This command is helpful for searching for something you know you made after a specific file. 
 
 Source: https://www.javatpoint.com/linux-find
-## find 
+## find -size *size*
+The terminal command `find -size <size>` looks through the working directory for files of the specified size. The possible sizes are `b` for 512-byte blocks (default size), `c` for bytes, `w` for two-byte words, `k` for Kilobytes, `M` for Megabytes, `G` for Gigabytes. Each size variable must have a number before it indicating the amount of units. You can also include a `+` of `-` to search for files greater than or less than the specified size.
 
+Here's an example of the command. The current working directory is `docsearch/written_2/non-fiction/OUP/Fletcher`. The input in the terminal is the following.
+```
+find -size +1b 
+```
+The output is the following.
+```
+.
+./ch1.txt
+./ch10.txt
+./ch2.txt
+./ch5.txt
+./ch6.txt
+./ch9.txt
+```
+This indicates that all of these given files are greater than 1 byte-block. 
+
+Here is another example of the command when in the same working directory. The input is the following.
+```
+find -size +50k
+```
+The output is the following.
+```
+./ch2.txt
+./ch6.txt
+./ch9.txt
+```
+This means that these files are greater than 50 Kilobytes. Since not all the files in the directory are shown, it means that the files not shown are less than 50 Kilobytes. This command is useful for searching for and sorting files based on size.
+
+The find command is very helpful for searching directories and files. Though these are only a few applications of the command, there are many other uses.
