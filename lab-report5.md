@@ -91,7 +91,7 @@ The output in the terminal is the following.
 ./chY.txt
 ./chZ.txt
 ```
-This means that all of these outputted files are newer than the file `chN.txt`. If you were looking at this repository on Github, all of the returned files would be shown underneath the file `chN.txt` in the repository. 
+This means that all of these outputted files are newer than the file `chN.txt`.
 
 Here's another example of the command. The working directory stays the same, but the specified file changes.
 ```
@@ -103,7 +103,7 @@ The output is the following.
 ./chY.txt
 ./chZ.txt
 ```
-This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`. This indicates that only a few files would be lower in the Github repository than `chW.txt`. The newer files are lower in the repository when listed on Github. This command is helpful for searching for something you know you made after a specific file. 
+This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`.nThis command is helpful for searching for something you know you made after a specific file. 
 
 Source: https://www.javatpoint.com/linux-find
 ## find -size *size*
