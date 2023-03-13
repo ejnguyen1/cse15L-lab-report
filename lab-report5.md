@@ -103,7 +103,7 @@ The output is the following.
 ./chY.txt
 ./chZ.txt
 ```
-This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`.nThis command is helpful for searching for something you know you made after a specific file. 
+This time, fewer files are returned because there are fewer files in the current directory that are newer than `chW.txt`. This command is helpful for searching for something you know you made after a specific file. 
 
 Source: https://www.javatpoint.com/linux-find
 ## find -size *size*
